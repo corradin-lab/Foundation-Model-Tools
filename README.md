@@ -72,28 +72,7 @@ print(f"Embedding shape: {embedding_mean.shape}")  # torch.Size([768])
  
 > The pre-trained weights are hosted on HuggingFace as [`zhihan1996/DNABERT-2-117M`](https://huggingface.co/zhihan1996/DNABERT-2-117M) and downloaded automatically on first use.
  
----
- 
-## Repository Structure
- 
-```
-Foundation-Model-Tools/
-├── DNABERT_2/
-│   ├── finetune/
-│   │   └── train.py               # DNABERT-2 fine-tuning script
-│   ├── sample_data/
-│   │   ├── train.csv
-│   │   ├── dev.csv
-│   │   └── test.csv
-│   └── requirements.txt
-├── slurm_finetune.sh              # SLURM job submission script
-├── run_motif_injection.py         # Motif injection & flip-rate analysis
-├── run_logistic_baseline.py       # k-mer logistic regression baselines
-├── log_eval_results.py            # Append eval metrics to summary CSV
-└── README.md
-```
- 
----
+
  
 ## Fine-Tuning with DNABERT-2
  
