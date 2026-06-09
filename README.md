@@ -1,5 +1,4 @@
 # Foundation-Model-Tools
-# Foundation-Model-Tools
 
 A collection of scripts and utilities for fine-tuning genomic foundation models, with a focus on DNABERT-2 for sequence classification tasks on SLURM-based HPC clusters.
 
